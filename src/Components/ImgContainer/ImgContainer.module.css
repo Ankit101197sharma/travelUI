@@ -1,0 +1,172 @@
+.imgSec{
+    color: #111111;
+    background-color: #e9f2fa;
+    height: 100%;
+    box-sizing: border-box;
+    /* margin: auto; */
+    width: 100%;
+}
+.sheet1{
+    min-height: 644px;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px;
+}
+.sheet2{
+    margin: 53px auto 70px 0;
+}
+.uRow{
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 100%;
+    max-width: 100%;
+    flex: 1 1 100%;
+    display: flex;
+    margin: 10px;
+   
+   
+}
+.sizeImg{
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin: auto;
+   
+    
+    
+}
+.uImgBig{
+    border:  10px solid transparent;
+    background-image: url("https://images01.nicepage.com/f1/bd/f1bd07a177034e1be82934e977c2d15a.jpeg");
+    min-height: 574px;
+    background-position: 50% 50%;
+    flex: 0 0 100%;
+    max-width: 100%;
+overflow: visible;
+/* background-size: cover; */
+margin: auto;
+}
+.uCol{
+    flex-direction: column;
+    min-height: 100%;
+    flex: 1 1 100%;
+    display: flex;
+    /* margin: auto; */
+   
+}
+.uCol .imgSize30{
+    flex: 30, 0 50%;
+    margin: auto;
+   
+}
+.uImg2{
+    border:  10px solid transparent;
+    background-image: url("https://images01.nicepage.com/63/51/6351493a20e107bdcedcceec726ee963.jpeg");
+    min-height: 279px;
+    background-position: 50% 50%;
+    flex: 0 0 100%;
+    max-width: 50%;
+overflow: hidden;
+background-size: cover;
+box-sizing: border-box ;
+margin: auto;
+}
+.uImgText{
+    /* border:  10px solid transparent; */
+    /* background-image: url("https://images01.nicepage.com/f1/bd/f1bd07a177034e1be82934e977c2d15a.jpeg"); */
+    min-height: 279px;
+    background-position: 50% 50%;
+    flex: 0 0 100%;
+    max-width: 50%;
+overflow: visible;
+background-size: cover;
+box-sizing: border-box;
+position: relative;
+display: flex;
+background-clip: padding-box;
+background-origin: padding-box;
+background-color: white;
+
+}
+.uCon1{
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    
+}
+.icon{
+    height: 80px;
+    width: 38px;
+    margin: 25px auto 0;
+    color: #478ac9;
+    border-radius: 50%;
+    display: block;
+    list-style: 0;
+    border-width: 0px;
+    position: relative;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+.text4{
+    margin: 20px 20px 10px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+h4 {
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+.paraText1{
+    font-size: 0.875rem;
+    font-style: italic;
+    margin: 20px 20px 25px;
+    text-align: center;
+}
+.paraText0{
+    font-size: 1.25rem;
+    font-style: italic;
+    margin: 20px 20px 25px;
+    text-align: center;
+}
+
+.uImg3{
+    border:  10px solid transparent;
+    background-image: url("https://images01.nicepage.com/b4/11/b41165f4eeb68cd6cdbb88a1048f82a7.jpeg");
+    min-height: 279px;
+    background-position: 50% 50%;
+    flex: 0 0 100%;
+    max-width: 50%;
+overflow: hidden;
+background-size: cover;
+box-sizing: border-box ;
+
+}
+@media (max-width: 400px){
+
+
+.uRow > * {
+    min-width: 100%;
+    justify-content: left;
+    width: 100%;
+    /* spadding: 10px; */
+}
+/* .uRow > * {
+    max-height: 100%;
+    min-height: -webkit-fit-content;
+    min-height: fit-content;
+} */
+}
+@media (max-width: 400px){
+.uBigImg {
+    border-left: 0 !important;
+    border-right: 0 !important;
+    min-width: 100%;
+}
+}

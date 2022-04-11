@@ -1,0 +1,46 @@
+.discountSec{
+    background-image: linear-gradient(0deg, rgba(41,46,51,0.25), rgba(41,46,51,0.25)), url("https://images01.nicepage.com/8d/98/8d98d9f895d45f1a7a10b3f4152d0a2a.jpeg");
+    background-position: 50% 50%;
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    max-width:100%;
+    font-family: 'Open Sans',sans-serif;
+    
+}
+.textItem{
+    color: #fff;
+   padding-top: 90px;
+    /* width: 90%; */
+    margin: auto;
+}
+.textItem1{
+    /* width: 95%; */
+    text-align: right;
+   padding-left: 60px;
+   padding-right: 60px;
+   justify-content: center;
+   margin: auto;
+    
+    
+}
+.cardText{
+    margin: 20px 0 0;
+    /* width: 100%; */
+    text-align: right;
+    font-size: 20px;
+    padding-top: 26px;
+    
+}
+.titleText{
+    font-size: 36px;
+    padding-top: 66px;
+}
+
+.btn{
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 10px 24px;
+    font-size: 16px;
+    margin-top: 44px;
+}

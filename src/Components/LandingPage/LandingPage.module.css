@@ -1,0 +1,94 @@
+.sectionContainer{
+    background-image: url("https://images01.nicepage.com/04/c9/04c92f4b1888be1f59c0cf8549526806.jpeg");
+    background-position: 50% 50%;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    font-family: 'Open Sans',sans-serif;
+    
+    
+}
+
+.aTag{
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 500;
+}
+.mainDiv{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.logoHeading{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    
+}
+.landingText{
+  padding-top: 100px;
+    width: 100%;
+    margin-top: 50px; 
+}
+.lendingcontainer{
+   text-align: left;
+   margin-left: 140px;
+   /* padding-left: 24px; */
+   width: 30%;
+    
+}
+.mainHeading{
+    font-size: 90px;
+    line-height: 4px;
+    color: #fff;
+    font-weight: 400;
+    padding-top: 60px;
+    margin-top: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+.paraText{
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 34px;
+}
+
+.readButton{
+    border-radius: 10px;
+    background-image: linear-gradient(135deg, #478ac9, #24d9ea);
+    margin: 40px 32px 60px 0;
+    padding: 14px 32px 15px;
+    border: none;
+    text-align: left;
+}
+button{
+    background-color: #478ac9;
+    color: #fff;
+}
+
+@media (max-width:400px){
+.sectionContainer .paraText{
+margin-left: 0;
+height: 25vh;
+
+
+}
+}
+@media (max-width:767px){
+    .sectionContainer{
+        margin-left: 0px;
+        /* max-width: 340px; */
+        
+    }
+    a{
+        margin: 10px;
+
+    }
+    
+    
+    
+}
